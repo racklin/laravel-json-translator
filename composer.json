@@ -1,0 +1,25 @@
+{
+    "name": "racklin/json-translator",
+    "description": "Using laravel 5.4 compatible json localization files for laravel 5.1+",
+    "keywords" : ["laravel", "json", "localization"],
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Rack Lin",
+            "email": "racklin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/translation": "5.*"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Racklin\\JsonTranslator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
